@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="613.0" prefWidth="734.0" style="-fx-background-color: #e0f2f1;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tugasakhir.FXMLDashboardController">
+   <children>
+      <AnchorPane layoutX="3.0" layoutY="9.0" prefHeight="606.0" prefWidth="727.0" style="-fx-background-color: #004d40;">
+         <children>
+            <Label layoutX="324.0" layoutY="3.0" prefHeight="23.0" prefWidth="274.0" text="APA YANG KAMU BUTUHKAN ?" textFill="#4fff8a">
+               <font>
+                  <Font name="CentSchbkCyrill BT Bold" size="15.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="76.0" fitWidth="72.0" layoutX="233.0" layoutY="85.0">
+               <image>
+                  <Image url="@backpack.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="76.0" fitWidth="72.0" layoutX="413.0" layoutY="85.0">
+               <image>
+                  <Image url="@daypack.png" />
+               </image>
+            </ImageView>
+            <JFXTextField fx:id="tgl" layoutX="413.0" layoutY="43.0" maxWidth="200.0" minWidth="200.0" prefHeight="13.0" prefWidth="200.0" style="-fx-background-color: #00796b;" />
+            <ImageView fitHeight="76.0" fitWidth="72.0" layoutX="598.0" layoutY="85.0">
+               <image>
+                  <Image url="@camera.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="305.0" layoutY="48.0" text="Tanggal Pesan : " textFill="#4fff8a">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="88.0" fitWidth="82.0" layoutX="228.0" layoutY="280.0">
+               <image>
+                  <Image url="@tent.png" />
+               </image>
+            </ImageView>
+            <JFXComboBox fx:id="ukc" layoutX="204.0" layoutY="189.0" onAction="#UKC" prefHeight="23.0" prefWidth="131.0" style="-fx-background-color: #bdbdbd;" />
+            <JFXComboBox fx:id="jkc" layoutX="205.0" layoutY="243.0" onAction="#JKC" prefHeight="25.0" prefWidth="131.0" style="-fx-background-color: #bdbdbd;" />
+            <Label layoutX="245.0" layoutY="167.0" prefHeight="21.0" prefWidth="62.0" text="Ukuran :" textFill="WHITE" />
+            <Label layoutX="229.0" layoutY="221.0" prefHeight="3.0" prefWidth="108.0" text="Jenis Kelamin   :" textFill="WHITE" />
+            <JFXComboBox fx:id="jkd" layoutX="388.0" layoutY="188.0" onAction="#JKD" prefHeight="25.0" prefWidth="131.0" style="-fx-background-color: #bdbdbd;" />
+            <Label layoutX="411.0" layoutY="166.0" prefHeight="3.0" prefWidth="108.0" text="Jenis Kelamin   :" textFill="WHITE" />
+            <Label layoutX="614.0" layoutY="166.0" text="Canon :" textFill="WHITE" />
+            <JFXComboBox fx:id="kamera" layoutX="569.0" layoutY="189.0" onAction="#KAMERA" prefHeight="25.0" prefWidth="131.0" style="-fx-background-color: #bdbdbd;" />
+            <Label layoutX="614.0" layoutY="219.0" prefHeight="21.0" prefWidth="41.0" text="Nikon :" textFill="WHITE" />
+            <JFXComboBox fx:id="camera" layoutX="569.0" layoutY="243.0" onAction="#CAMERA" prefHeight="25.0" prefWidth="131.0" style="-fx-background-color: #bdbdbd;" />
+            <ImageView fitHeight="88.0" fitWidth="82.0" layoutX="594.0" layoutY="280.0">
+               <image>
+                  <Image url="@shoes.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="60.0" fitWidth="62.0" layoutX="418.0" layoutY="238.0">
+               <image>
+                  <Image url="@sleeping-bag.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="241.0" layoutY="354.0" text="Kapasitas :" textFill="WHITE" />
+            <JFXComboBox fx:id="kp" layoutX="204.0" layoutY="372.0" onAction="#KP" prefHeight="25.0" prefWidth="131.0" style="-fx-background-color: #bdbdbd;" />
+            <Label layoutX="243.0" layoutY="397.0" prefHeight="21.0" prefWidth="56.0" text="Tempat :" textFill="WHITE" />
+            <JFXComboBox fx:id="pl" layoutX="204.0" layoutY="418.0" onAction="#PL" prefHeight="25.0" prefWidth="131.0" style="-fx-background-color: #bdbdbd;" />
+            <Label layoutX="592.0" layoutY="354.0" text="Ukuran Sepatu :" textFill="WHITE" />
+            <JFXComboBox fx:id="uks" layoutX="573.0" layoutY="372.0" onAction="#UKS" prefHeight="25.0" prefWidth="131.0" style="-fx-background-color: #bdbdbd;" />
+            <Label layoutX="594.0" layoutY="398.0" prefHeight="21.0" prefWidth="97.0" text="Jenis Kelamin   :" textFill="WHITE" />
+            <JFXComboBox fx:id="jks" layoutX="573.0" layoutY="418.0" onAction="#JKS" prefHeight="25.0" prefWidth="131.0" style="-fx-background-color: #bdbdbd;" />
+            <Label layoutX="411.0" layoutY="301.0" text="Tinggi Badan   :" textFill="WHITE" />
+            <JFXComboBox fx:id="tb" layoutX="386.0" layoutY="320.0" onAction="#TB" prefHeight="25.0" prefWidth="131.0" style="-fx-background-color: #bdbdbd;" />
+            <JFXButton fx:id="proses" layoutX="426.0" layoutY="372.0" onAction="#btnPROSES" style="-fx-background-color: #00796b;" text="PROSES" textFill="WHITE" />
+            <JFXTextArea fx:id="TA" layoutX="315.0" layoutY="452.0" maxWidth="457.0" minWidth="274.0" prefHeight="122.0" prefWidth="274.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="3.0" layoutY="9.0" prefHeight="594.0" prefWidth="192.0" style="-fx-background-color: #00796b;">
+         <children>
+            <ImageView fitHeight="122.0" fitWidth="121.0" layoutX="40.0" layoutY="50.0">
+               <image>
+                  <Image url="@users.png" />
+               </image>
+            </ImageView>
+            <Separator layoutX="1.0" layoutY="288.0" prefHeight="3.0" prefWidth="191.0" />
+            <Label layoutX="52.0" layoutY="174.0" text="H E L L O !" textFill="#4fff8a">
+               <font>
+                  <Font name="Century" size="18.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="131.0" fitWidth="143.0" layoutX="30.0" layoutY="344.0">
+               <image>
+                  <Image url="@map-location.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="45.0" layoutY="477.0" prefHeight="23.0" prefWidth="114.0" text="SARAN TEMPAT?" textFill="#4fff8a">
+               <font>
+                  <Font name="Swis721 Hv BT Heavy" size="12.0" />
+               </font>
+            </Label>
+            <JFXButton fx:id="Next" layoutX="67.0" layoutY="504.0" onAction="#next" style="-fx-background-color: #004d40;" text="N E X T !" textFill="WHITE">
+               <font>
+                  <Font name="Stencil" size="12.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="406.0" prefWidth="513.0" style="-fx-background-color: #26a69a;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.111" fx:controller="tugasakhir.FXMLDocumentController">
+    <children>
+      <AnchorPane prefHeight="155.0" prefWidth="513.0" style="-fx-background-color: #00796b;">
+         <children>
+            <ImageView fitHeight="81.0" fitWidth="200.0" layoutX="157.0" layoutY="14.0">
+               <image>
+                  <Image url="@Mercator-Mountain1.png" />
+               </image>
+            </ImageView>
+              <Label fx:id="label" layoutX="116.0" layoutY="83.0" minHeight="16" minWidth="69" prefHeight="62.0" prefWidth="288.0" text="Welcome BackPacker!" textFill="#fcfcfc">
+               <font>
+                  <Font name="Children of theStarlight" size="44.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="62.0" fitWidth="99.0" layoutY="103.0">
+               <image>
+                  <Image url="@forest.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="62.0" fitWidth="99.0" layoutX="414.0" layoutY="103.0">
+               <image>
+                  <Image url="@forest.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Label layoutX="29.0" layoutY="186.0" prefHeight="28.0" prefWidth="315.0" text="Silahkan Masukkan Data Diri Anda Terlebih Dahulu" textFill="WHITE">
+         <font>
+            <Font name="Eras Bold ITC" size="12.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="editNama" focusColor="WHITE" layoutX="149.0" layoutY="212.0" maxWidth="299.0" minWidth="299.0" prefHeight="31.0" prefWidth="299.0" />
+      <JFXTextField fx:id="editAlamat" focusColor="WHITE" layoutX="150.0" layoutY="251.0" maxWidth="299.0" minWidth="299.0" prefHeight="31.0" prefWidth="299.0" />
+      <JFXTextField fx:id="editTelepon" focusColor="WHITE" layoutX="150.0" layoutY="291.0" maxWidth="299.0" minWidth="299.0" prefHeight="31.0" prefWidth="299.0" />
+      <Label layoutX="75.0" layoutY="221.0" text="Nama" textFill="WHITE">
+         <font>
+            <Font name="Exotc350 Bd BT Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="72.0" layoutY="258.0" text="Alamat" textFill="WHITE">
+         <font>
+            <Font name="Exotc350 Bd BT Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="70.0" layoutY="296.0" text="Telepon" textFill="WHITE">
+         <font>
+            <Font name="Exotc350 Bd BT Bold" size="17.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="login" layoutX="299.0" layoutY="353.0" onAction="#btnLogin" style="-fx-background-color: #006064;" text="Login" textFill="WHITE">
+         <font>
+            <Font name="Book Antiqua" size="14.0" />
+         </font>
+      </JFXButton>
+      <ImageView fitHeight="90.0" fitWidth="99.0" layoutX="-5.0" layoutY="322.0">
+         <image>
+            <Image url="@palm-tree.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="90.0" fitWidth="99.0" layoutX="414.0" layoutY="322.0">
+         <image>
+            <Image url="@palm-tree1.png" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="daftar" layoutX="157.0" layoutY="353.0" onAction="#btnDaftar" style="-fx-background-color: #006064;" text="Daftar" textFill="WHITE">
+         <font>
+            <Font name="Book Antiqua" size="14.0" />
+         </font>
+      </JFXButton>
+    </children>
+</AnchorPane>

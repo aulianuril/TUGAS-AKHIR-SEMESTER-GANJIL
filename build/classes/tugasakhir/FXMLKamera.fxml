@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #00796b;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tugasakhir.FXMLKameraController">
+   <children>
+      <AnchorPane layoutX="387.0" layoutY="9.0" prefHeight="383.0" prefWidth="203.0" style="-fx-background-color: #e0f2f1;">
+         <children>
+            <Label layoutX="36.0" layoutY="75.0" style="-fx-background-color: #424242;" text="K A M E R A" textFill="WHITE">
+               <font>
+                  <Font name="Baskerville Old Face" size="24.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="148.0" fitWidth="162.0" layoutX="22.0" layoutY="134.0">
+               <image>
+                  <Image url="@camera.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Label layoutX="128.0" layoutY="46.0" text="D E T A I L :" textFill="WHITE">
+         <font>
+            <Font name="Source Code Pro Semibold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="107.0" text="Tanggal Pesan : " textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="160.0" text="Canon              :" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <JFXComboBox fx:id="kamera" layoutX="132.0" layoutY="155.0" onAction="#Kamera" prefHeight="31.0" prefWidth="226.0" style="-fx-background-color: #bdbdbd;" />
+      <Label layoutX="24.0" layoutY="222.0" prefHeight="21.0" prefWidth="108.0" text="Nikon               :" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <JFXComboBox fx:id="camera" layoutX="132.0" layoutY="214.0" onAction="#Camera" prefHeight="31.0" prefWidth="226.0" style="-fx-background-color: #bdbdbd;" />
+      <Separator layoutX="112.0" layoutY="291.0" prefHeight="0.0" prefWidth="162.0" />
+      <JFXButton fx:id="pesan" layoutX="149.0" layoutY="331.0" onAction="#OK" prefHeight="31.0" prefWidth="84.0" style="-fx-background-color: #43a047;" text="PESAN" textFill="WHITE" />
+      <JFXDatePicker fx:id="date" layoutX="132.0" layoutY="102.0" prefHeight="31.0" prefWidth="226.0" style="-fx-background-color: #bdbdbd;" />
+   </children>
+</AnchorPane>

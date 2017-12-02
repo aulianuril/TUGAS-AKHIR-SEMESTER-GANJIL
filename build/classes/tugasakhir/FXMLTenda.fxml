@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #00796b;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tugasakhir.FXMLTendaController">
+   <children>
+      <AnchorPane layoutX="387.0" layoutY="9.0" prefHeight="383.0" prefWidth="203.0" style="-fx-background-color: #e0f2f1;">
+         <children>
+            <Label layoutX="47.0" layoutY="89.0" style="-fx-background-color: #424242;" text="T E N D A" textFill="WHITE">
+               <font>
+                  <Font name="Baskerville Old Face" size="24.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="2.0" layoutY="103.0">
+               <image>
+                  <Image url="@tent.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Label layoutX="128.0" layoutY="46.0" text="D E T A I L :" textFill="WHITE">
+         <font>
+            <Font name="Source Code Pro Semibold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="107.0" text="Tanggal Pesan : " textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="163.0" text="Kapasitas         :" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <JFXComboBox fx:id="uk" layoutX="132.0" layoutY="155.0" onAction="#UK" prefHeight="31.0" prefWidth="226.0" style="-fx-background-color: #bdbdbd;" />
+      <Label layoutX="24.0" layoutY="222.0" prefHeight="21.0" prefWidth="108.0" text="Tempat            :" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <JFXComboBox fx:id="jk" layoutX="132.0" layoutY="214.0" onAction="#JK" prefHeight="31.0" prefWidth="226.0" style="-fx-background-color: #bdbdbd;" />
+      <Separator layoutX="112.0" layoutY="291.0" prefHeight="0.0" prefWidth="162.0" />
+      <JFXButton fx:id="pesan" layoutX="149.0" layoutY="331.0" onAction="#OK" prefHeight="31.0" prefWidth="84.0" style="-fx-background-color: #43a047;" text="PESAN" textFill="WHITE" />
+      <JFXDatePicker fx:id="date" layoutX="132.0" layoutY="102.0" prefHeight="31.0" prefWidth="226.0" style="-fx-background-color: #bdbdbd;" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="460.0" prefWidth="625.0" style="-fx-background-color: #e0f2f1;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tugasakhir.FXMLNeedController">
+   <children>
+      <AnchorPane layoutX="3.0" layoutY="8.0" prefHeight="443.0" prefWidth="618.0" style="-fx-background-color: #004d40;">
+         <children>
+            <Label layoutX="21.0" layoutY="139.0" text="Karimun Jawa, Jepara, Jawa Tengah" textFill="WHITE" />
+            <ImageView fitHeight="96.0" fitWidth="200.0" layoutX="8.0" layoutY="163.0">
+               <image>
+                  <Image url="@karimun-jawa.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="55.0" layoutY="276.0" text="Malang, Jawa Timur" textFill="WHITE" />
+            <ImageView fitHeight="96.0" fitWidth="200.0" layoutX="7.0" layoutY="302.0">
+               <image>
+                  <Image url="@malang-300x145.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="279.0" layoutY="139.0" text="Solo, Jawa Tengah" textFill="WHITE" />
+            <ImageView fitHeight="96.0" fitWidth="200.0" layoutX="218.0" layoutY="163.0">
+               <image>
+                  <Image url="@shutterstock_422366314.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="229.0" layoutY="276.0" text="Teluk ijo, Banyuwangi, Jawa Timur" textFill="WHITE" />
+            <ImageView fitHeight="96.0" fitWidth="200.0" layoutX="218.0" layoutY="302.0">
+               <image>
+                  <Image url="@Green%20bay%2018%20Feb.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="444.0" layoutY="139.0" text="Gunung Bromo, Jawa Timur" textFill="WHITE" />
+            <ImageView fitHeight="96.0" fitWidth="179.0" layoutX="428.0" layoutY="163.0">
+               <image>
+                  <Image url="@Gunung-Bromo.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="438.0" layoutY="276.0" text="Umbul Ponggok, Jawa Tengah" textFill="WHITE" />
+            <ImageView fitHeight="96.0" fitWidth="187.0" layoutX="425.0" layoutY="302.0">
+               <image>
+                  <Image url="@Umbul-Ponggok-Klaten-300x200.jpg" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+      <AnchorPane layoutX="83.0" layoutY="8.0" prefHeight="121.0" prefWidth="429.0" style="-fx-background-color: #00796b;">
+         <children>
+            <ImageView fitHeight="87.0" fitWidth="105.0" layoutX="162.0">
+               <image>
+                  <Image url="@map-location.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="162.0" layoutY="88.0" prefHeight="23.0" prefWidth="114.0" text="SARAN TEMPAT?" textFill="#4fff8a">
+               <font>
+                  <Font name="Swis721 Hv BT Heavy" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
